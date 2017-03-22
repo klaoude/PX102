@@ -1,0 +1,6 @@
+#Créeons les répertoires avec la commande mkdir
+mkdir nomp-1 && mkdir nomp-1/nomp-2 nomp-1/nomp-3
+#Créeons maintenant les fichiers vide avec la commande touch
+touch nomp-1/nomp-2/nomp-1 && touch nomp-1/nomp-3/nomp-1
+#Pour finir créeons le fichier tar, même commande qu'avant
+tar cf nomp-1/

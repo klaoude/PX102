@@ -1,0 +1,6 @@
+#Pour extraire le fichier tar, il faut utiliser la commande :
+tar xf data.tar
+#ou le x veut dire extraire et le f file
+#Ensuite, nous pouvons voir le contenu du fichier tra/la/la/lere avec la commande :
+cat tra/la/la/lere
+#Voial, facile :p

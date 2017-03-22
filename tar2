@@ -1,0 +1,8 @@
+#Tout d'abord, nous allons extraire le fichier tar2.tar, même commande que précédament,
+tar xf tar2.tar
+#Ensuite mettons le contenu du fichier tra/la/la/lere en majuscule
+#Pour cela, je vais utiliser une commande que je ne detaillerai pas
+cat tra/la/la/lere | tr a-z A-Z > tra/la/la/tmp && mv tra/la/la/tmp tra/la/la/lere
+#Maintenant créeons le nouveau fichier tar
+tar cf answer.tar tra/
+#Avec l'option c qui veut dire create

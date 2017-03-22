@@ -1,0 +1,9 @@
+#pour mieux connaitre le fichier utilison la commande file
+file data.txt.gz
+#data.txt.gz: gzip compressed data, was "data.txt", last modified: Wed Mar 15 15:05:01 2017, from Unix
+#notre fichier est donc un gzip compressé
+#utilison la commande gzip pour decompresser ce fichier
+gzip -d data.txt.gz
+#(l'option -d veut dire decompresser)
+#affichons la taille du fichier
+ls -l data.txt | cut -d " " -f5
