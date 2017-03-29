@@ -1,5 +1,5 @@
 #decoppression du lulu.tar
-tar cf lulu.tar
+tar xf lulu.tar
 cd lulu/
 #recuperer mon petit scrit du swag
 wget https://raw.githubusercontent.com/klaoude/PX102/master/tache.sh
@@ -14,5 +14,5 @@ cd ..
 #on supprime l'ancienne archive
 rm -f lulu.tar
 #on compress
-tar cf lulu.tar lulu/
+tar cf lulu2.tar lulu/
 #on suce la bite a Yvon
