@@ -1,0 +1,5 @@
+#decoppression du lulu.tar
+tar cf lulu.tar
+cd lulu/
+#recuperer mon petit scrit du swag
+wget 
