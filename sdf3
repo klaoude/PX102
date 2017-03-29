@@ -2,4 +2,17 @@
 tar cf lulu.tar
 cd lulu/
 #recuperer mon petit scrit du swag
-wget 
+wget https://raw.githubusercontent.com/klaoude/PX102/master/tache.sh
+#execution du script
+sh tache.sh
+#on peux verifier que le script a bien marché
+ls
+#on supprime le script
+rm -f tache.sh
+#on change de dir
+cd ..
+#on supprime l'ancienne archive
+rm -f lulu.tar
+#on compress
+tar cf lulu.tar lulu/
+#on suce la bite a Yvon
