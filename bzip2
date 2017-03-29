@@ -1,0 +1,5 @@
+#decopression
+bzip2 -d data.txt.bz2
+#taille
+ls -l data.txt | cut -d " " -f5
+#et voila !
