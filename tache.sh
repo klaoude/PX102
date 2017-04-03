@@ -1,4 +1,4 @@
-for i in *
+for f in *
 do
   ext=$(file $f | cut -d " " -f3)
   if [ $ext = "PNG" ]; then
@@ -8,6 +8,6 @@ do
   elif [ $ext = "UTF-8" ] || [ $ext = "ASCII" ]; then
     mv $f $f.txt
   elif [ $ext = "JPEG" ]; then
-    mv $f $f.txt
+    mv $f $f.jpg
   fi
 done
