@@ -6,4 +6,4 @@ mkdir png txt
 mv *.txt txt/ && mv *.png png/
 #(le *.txt et *.png veulent dire tous les fichier se terminant par .txt ou .png)
 #créeons le tar
-tar cf txt/ png/
+tar cfsdf2.tar txt/ png/
