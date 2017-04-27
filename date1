@@ -1,0 +1,6 @@
+#on extrait
+tar xf lulu.tar
+cd lulu
+#on affiche
+cat `ls -rt`
+#et on a le code !

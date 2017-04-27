@@ -1,0 +1,4 @@
+#on extrait
+tar xf lulu.tar
+#la un message d'eerue s'affiche avec des fichiers "trop vieux" je les ai donc ouvert du plus vieux 
+au plus jeune et j'ai ue le code "shell"

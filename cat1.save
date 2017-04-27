@@ -1,0 +1,6 @@
+#on extrait
+tar xf msg.tar
+cd files
+#on affiche tout
+cat *
+#et voila

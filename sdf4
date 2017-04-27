@@ -1,0 +1,20 @@
+#on extrait
+tar xf sdf4.tar
+cd lulu
+#on copie le fichier px102/notes.txt en px102/notes.save
+cp px102/notes.txt px102/notes.save
+#on enleve les droit d'ecriture
+chmod -w px102/notes.save
+#on suprime tous les répertoire vide
+find . -type d -empty -delete
+#on crée un dossier Cours
+mkdir Cours
+#on met les cours en maj et on les déplace dans le dossier Cours
+mv cs111 Cours/CS111
+mv px102 Cours/PX102
+#on supprime le répertoire bof1 et tout son contenu
+rm -rf bof1
+#on recompresse
+cd ..
+tar cf sdf4-propre.tar lulu
+

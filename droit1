@@ -1,0 +1,6 @@
+#on extrait
+tar xf files.tar
+cd files
+#on ecrit
+ls -lrta | cut -d " " -f 1 | grep '^-..x..-..-' | wc -l
+#et on a la réponse
